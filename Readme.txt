@@ -2,7 +2,7 @@
 
 A sleek, classic 2D retro arcade Pong implementation built from scratch in C++ using the Raylib multimedia library. This project showcases robust Object-Oriented Programming (OOP) architectures and custom gameplay mechanics, supporting both classic head-to-head local multi-player and an automated AI Bot system mode.
 
----
+
 
 ## 🚀 Download and Play
 
@@ -10,9 +10,9 @@ The game is pre-compiled and ready to run. You do not need to install Visual Stu
 
 [![Download Game Here](https://img.shields.io/badge/DOWNLOAD-Game%20Executable-brightgreen?style=for-the-badge&logo=windows)](https://github.com/daniyal-dar/pong-game/releases/latest)
 
-> ⚠️ **Note for Windows Users:** Because this is an independent, unsigned hobbyist executable, Windows Defender SmartScreen might flag it as an "unrecognized app" or throw a false positive warning. To launch, simply click **"More info"** on the blue warning window, and then select **"Run anyway"**.
+⚠️ **Note for Windows Users:** Because this is an independent, unsigned hobbyist executable, Windows Defender SmartScreen might flag it as an "unrecognized app" or throw a false positive warning. To launch, simply click **"More info"** on the blue warning window, and then select **"Run anyway"**.
 
----
+
 
 ## 🎮 Game Modes & Controls
 
@@ -23,7 +23,7 @@ The game features dual runtime configurations. Pressing `C` instantly switches t
 - **Bot Mode (Right AI):** Automated tracking (Self-Regulating)
 - **System Control:** Press `C` to switch between 2v2 and 1vBot mode
 
----
+
 
 ## 📁 Repository Structure
 
@@ -33,7 +33,7 @@ The game features dual runtime configurations. Pressing `C` instantly switches t
 - **raylib/**: Local static Raylib framework dependencies (headers, libs).
 - **.gitignore**: Global environment build-exclusion file to keep the repository clean.
 
----
+
 
 ## 🛠️ Architecture & Structural OOP Design
 
@@ -45,7 +45,7 @@ The software divides game physics, tracking, scoring, and drawing routines acros
 - [cite_start]**Bot**: An intelligent extension of the `Paddle` object via structural inheritance[cite: 61, 64]. [cite_start]Overrides behavior to track the vertical axis rendering vector of the active `Ball` dynamically[cite: 61].
 - [cite_start]**Ball**: Regulates dimensional movement vectors, automated state resets using a `resetTimer` setup, audio cue interaction handling, and structural dependencies to scale and update player scores[cite: 61, 62, 63].
 
----
+
 
 ## ⚙️ Compilation and Environment Configuration
 
@@ -68,7 +68,7 @@ The software divides game physics, tracking, scoring, and drawing routines acros
   - [cite_start]`user32.lib` [cite: 5]
   - [cite_start]`shell32.lib` [cite: 5]
 
----
+
 
 ## 📟 Framework API Integrations
 
@@ -87,7 +87,7 @@ The software divides game physics, tracking, scoring, and drawing routines acros
 - [cite_start]Multi-channel tracking hooks are processed using `InitAudioDevice()` [cite: 51, 52] [cite_start]and terminated on exit with `CloseAudioDevice()`[cite: 56].
 - [cite_start]Live tracking variables (.mp3 or .wav sound clips) stream via `LoadSound()` [cite: 52, 53][cite_start], fire actions with `PlaySound()` [cite: 53, 54][cite_start], and purge clean memory allocations via `UnloadSound()`[cite: 54, 55].
 
----
+
 
 ## 📄 License
 
