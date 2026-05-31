@@ -8,7 +8,7 @@ A sleek, classic 2D retro arcade Pong implementation built from scratch in C++ u
 
 The game is pre-compiled and ready to run. You do not need to install Visual Studio or download the source code to play!
 
-[![Download Game Here](https://img.shields.io/badge/DOWNLOAD-Game%20Executable-brightgreen?style=for-the-badge&logo=windows)](https://github.com/moiz781/pong-game-release/releases/latest)
+[![Download Game Here](https://img.shields.io/badge/DOWNLOAD-Game%20Executable-brightgreen?style=for-the-badge&logo=windows)](https://github.com/daniyal-dar/pong-game/releases/download/V1.0.0/game%20code.exe)
 
 > ⚠️ **Note for Windows Users:** Because this is an independent, unsigned hobbyist executable, Windows Defender SmartScreen might flag it as an "unrecognized app" or throw a false positive warning. To launch, simply click **"More info"** on the blue warning window, and then select **"Run anyway"**.
 
